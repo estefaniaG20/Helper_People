@@ -14,10 +14,10 @@ const ModalLogin = ({show, handleClose}) => {
         <Modal.Body>
           <Container className='formModal'>
             <label className="label leters">Correo</label>
-            <input placeholder='Ingrese su correo' className="form-input border" type='email' required/>
+            <input placeholder='Ingrese su correo' className="border" type='email' required/>
 
             <label className="label leters">Contraseña</label>
-            <input placeholder="Ingrese su apellido" type="text"  className='form-input border' required/>
+            <input placeholder="Ingrese su apellido" type="text"  className='border' required/>
 
             <a href='#' className='forgotPassword'>¿Olvidaste tu Contraseña?</a>
 
