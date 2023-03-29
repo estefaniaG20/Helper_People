@@ -4,10 +4,10 @@ import React, {useState} from 'react'
 export const Form = () => {
     const [showPwd, setShowPwd] = useState(false)
 return (
-        <form action="" className='form'>
-            <div className='container'>
+        <form action="" className='formH'>
+            <div className='containerH'>
             <header className='headerForm'>
-                <h2>Registro</h2>
+                <h2 className='h2H'>Registro</h2>
             </header>
             <fieldset className="field-name div">
                 <label className="label">Nombre</label>
@@ -21,7 +21,7 @@ return (
                 <label className="label" >Correo</label>
                 <input placeholder='Ingrese su correo' className="form-input" type='email' required></input>
             </fieldset>
-            <fieldset className="field-message">
+            <fieldset className="field-message div">
                 <label className="label" >Contraseña</label>
                 <div className='div-verify'>
                     <input type={showPwd ? "text" : "password"} placeholder="Ingrese su contraseña" id="password" className='form-input' required/>

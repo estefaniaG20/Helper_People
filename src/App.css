@@ -128,6 +128,14 @@ form {
   background-image: linear-gradient(-225deg, #39b3f0 50%, rgba(24, 24, 24, 0.87) 50%);
 }
 
+.containerH {
+  width: 500px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 form .con {
   display: -webkit-flex;
   display: flex;
@@ -207,7 +215,7 @@ input:focus {
   margin-left: 5px;
 }
 
-.form{
+.formH{
   width: 500px;
   height: 600px;
   display: flex;
@@ -232,9 +240,16 @@ input:focus {
   height: 55px;
 }
 
+.h2H{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .div{
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
 }
 
 .sing-up{
