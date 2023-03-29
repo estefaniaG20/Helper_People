@@ -8,6 +8,10 @@ body{
     align-items: center;
 }
 
+.titulo{
+    font-size: 35px;
+}
+
 .divHeaderR{
     display: flex;
     gap: 20px;  
@@ -18,7 +22,7 @@ body{
     background-color: rgba(0, 0, 0, 0.87);
     border-bottom: solid 8px #1293d4;   
     display: flex;
-    height: 100px;
+    height: 160px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
