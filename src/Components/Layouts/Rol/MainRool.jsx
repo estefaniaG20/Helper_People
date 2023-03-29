@@ -10,7 +10,7 @@ export const MainRool = () => {
         <div class="card">
             <div class="face face1">
                 <div class="content">
-                    <img src={service_provider}/>
+                    <img src={Costumer}/>
                     <h3>Prestador De Sercicio</h3>
                 </div>
             </div>
@@ -24,7 +24,7 @@ export const MainRool = () => {
         <div class="card">
             <div class="face face1">
                 <div class="content">
-                    <img src={Costumer}/>
+                    <img src={service_provider}/>
                     <h3>Cliente</h3>
                 </div>
             </div>
