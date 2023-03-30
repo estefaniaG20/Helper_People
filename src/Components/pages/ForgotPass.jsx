@@ -1,7 +1,7 @@
 import React from 'react'
-import { FooterFP } from '../Layouts/FooterFP'
-import { HeaderFP } from '../Layouts/HeaderFP'
-import { MainFP } from '../Layouts/MainFP'
+import { FooterFP } from '../Layouts/ForgotPassword/FooterFP'
+import { HeaderFP } from '../Layouts/ForgotPassword/HeaderFP'
+import { MainFP } from '../Layouts/ForgotPassword/MainFP'
 
 
 
